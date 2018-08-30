@@ -2,10 +2,6 @@ package com.amazonaws.utils;
 
 public final class Constants {
 
-	public static final String AWS_ACCESS_KEY_ID = "AKIAJ3IAQCFWNJ4UGJRA";
-
-	public static final String AWS_SECRET_ACCESS_KEY = "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";
-
 	public static final String USER = "USER";
 
 	public static final String DEVICE = "DEVICE";
@@ -20,17 +16,9 @@ public final class Constants {
 	
 	public static final String LAMBDA_FUNCTION_1 = "function:Post_Request";
 
-	public static final String ARN_SQS = "arn:aws:sqs:us-west-2:862182702958:";
-	
-	public static final String ARN_LAMBDA = "arn:aws:sqs:us-west-2:860377207667:";
-
 	public static final String SQSDefaultPolicy = "/SQSDefaultPolicy";
 
 	public static final String RESP_QUEUE = "ServiceQueueRsp.fifo";
-	
-	public static final String SERVICE_QUEUE_URL = "https://sqs.us-west-2.amazonaws.com/860377207667/ServiceQueue.fifo";
-
-	public static final String receiveMsgURL = "https://sqs.us-west-2.amazonaws.com/862182702958/ServiceQueueRsp.fifo";
 
 	public static final String HOME_PAGE = "index.jsp";
 
